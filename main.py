@@ -18,7 +18,7 @@ def my_optimizer_creator():
 
 def my_criterion_creator():
     def criterion(*args, **kwargs):
-        return random.normalvariate()
+        return random.normalvariate(0, 1)
     return criterion
 
 
